@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>新生指南</title>
+
+		<!-- Bootstrap CSS-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/studentGuide.min.css"/>
+	</head>
+
+	<body>
+		<!--导航条部分开始需要抽取出来作为公共部分-->
+		<nav class="navbar navbar-default" id="top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      				</button>
+					<img src="img/logo.png" />
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="IndexRouter">首页</a>
+						</li>
+						<li>
+							<a href="HigoPager">HIGO大学季</a>
+						</li>
+						<li>
+							<a href="mooc">公益课堂</a>
+						</li>
+						<li>
+							<a href="OldDriverPager">影视老司机</a>
+						</li>
+						<li>
+							<a href="CollegeVoiceVideoPager">高校最强音</a>
+						</li>
+						<li>
+							<a href="aboutUs.html">关于我们</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">其他<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="EduNewsMenuRouter">教育资讯</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#">高校人物风采录</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#">山西高校图片库</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="UserRegisterRouter">注册</a>
+						</li>
+						<li>
+							<a href="UserLoginRouter">登录</a>
+						</li>
+					</ul>
+					<!--用户登录后用于显示用户名和注销按钮，需要时解开注释-->
+					<!-- <ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">用户名：</a>
+						</li>
+						<li>
+							<a href="UserLogout">注销</a>
+						</li>
+					</ul> -->
+				</div>
+			</div>
+		</nav>
+		<!--导航条部分结束-->
+
+		<!--面包屑导航部分-->
+		<ol class="breadcrumb">
+			<li>
+				<a href="#">首页</a>
+			</li>
+			<li>
+				<a href="#">新生指南</a>
+			</li>
+			<li class="active">
+				视频指南
+			</li>
+		</ol>
+
+		<!--播放器部分开始-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="video-player">
+						<video class="full" width="100%" height="100%" src="http://221.204.210.202/xdispatch/o7zv69viu.bkt.clouddn.com/%E5%BD%B1%E8%A7%86%E8%80%81%E5%8F%B8%E6%9C%BA%E7%AC%AC%E4%B8%80%E6%9C%9F%E3%80%8A%E8%8D%92%E9%87%8E%E7%8C%8E%E4%BA%BA%E3%80%8B.mp4" controls="controls" poster="img/smooc_lpp_html5.jpg">
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--播放器部分结束-->
+
+		<!--视频简介panel-->
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h3 class="panel-title">视频简介</h3>
+			</div>
+			<div class="panel-body">
+				2016年太原理工大学招生宣传片由山西太阳在线网络科技有限公司团队倾力打造，宣传片历时3周，视频采用纯实拍加三维动画的形式，彰显了太原理工大学这座百年名校的精华所在，同时也展现了太原理工大学的雄厚实力，视频上传至网络立刻得到了大家的广泛关注，短短几天点击量超5万次,此宣传片因打破传统招生宣传片的制作模式，大胆开辟新方式，在社会上引起了巨大反响。
+			</div>
+		</div>
+
+		<!--3D场景展示部分开始-->
+		<!--面包屑导航部分-->
+		<ol class="breadcrumb">
+			<li>
+				<a href="#">首页</a>
+			</li>
+			<li>
+				<a href="#">新生指南</a>
+			</li>
+			<li class="active">
+				3D场景展示
+			</li>
+		</ol>
+
+		<div class="container">
+			<div class="row">
+				<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class="thumbnail">
+						<img src="img/sushe.png" alt="宿舍全景截图">
+						<div class="caption">
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingOne">
+										<h4 class="panel-title">
+									        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									          	<h2 style="text-align: center;">太原理工大学眀向校区宿舍全景展示</h2>
+									        </a>
+      									</h4>
+									</div>
+									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+										<div class="panel-body">
+											<p class="sushe-intro">虚拟现实技术是一种可以创建和体验虚拟世界的计算机仿真系统。</p>
+											<p class="sushe-intro">它利用计算机生成一种模拟环境是一种多源信息融合的交互式的三维动态视景和实体行为的系统仿真使用户沉浸到该环境中。</p>
+											<p class="sushe-intro">太阳在线网络科技有限公司是由一群有活力有激情的青年组成的集体，敢于创新，敢于拥抱前沿科技。</p>
+											<p class="sushe-intro">这个作品就是基于3D全景摄影，综合了VR技术制作而成。包含了四人间六人间多个场景。全方位，多角度的展示了太原理工大学新校区宿舍全景。</p>
+											<p class="sushe-intro">不需多言，点击进入这个奇幻世界，感受超越现实的真实体验吧！</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p style="text-align: right;">
+								<a href="http://720yun.com/t/9ad2fqfvw1i?pano_id=772051" class="btn btn-primary btn-lg" role="button" target="_blank">开启探索</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--3D场景展示部分结束-->
+		<!--footer部分开始,最后抽取为公共部分-->
+		<div class="blank-block">
+
+		</div>
+		<div class="footer">
+			<span class="footer-content">(c)2015-2016 山西太阳在线</span>
+		</div>
+		<!--footer部分结束-->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
