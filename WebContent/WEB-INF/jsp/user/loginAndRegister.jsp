@@ -38,6 +38,13 @@
 				<img src="img/logo.png" />
 			</div>
 		</div>
+		
+		<!--登录回显部分开始-->
+		<div class="login-regis-result">
+			<span><%=message %></span>
+		</div>
+		<!--登录回显部分结束-->
+		
 		<!--登录表单部分开始-->
 		<form action="UserLogin" method="post" id="loginform">
 			<!--登录邮箱-->
@@ -61,11 +68,13 @@
 			<!--提交按钮-->
 			<div class="btn-login-box">
 				<button type="submit" class="btn btn-login">登录</button>
-				<div><%=message %></div>
 			</div>
 		</form>
 		<!--登录表单部分结束-->
-
+		<!--返回首页按钮-->
+		<div class="login-return-index">
+			<a href="IndexRouter"><span>返回首页</span></a>
+		</div>
 		<!--注册模态框开始-->
 		<div class="modal fade" id="regisForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 			<div class="modal-dialog" role="document">

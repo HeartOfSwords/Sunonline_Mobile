@@ -330,7 +330,10 @@
 			</div>
 		</div>
 		<!--公用版块部分结束-->
-		
+		<!--返回顶部按钮-->
+		<div class="index-return-top">
+			<a href="#top"><span class="glyphicon glyphicon-open"></span></a>
+		</div>
 		<!--footer部分开始,最后抽取为公共部分-->
 		<div class="blank-block">
 			
